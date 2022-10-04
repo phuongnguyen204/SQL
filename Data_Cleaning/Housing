@@ -1,0 +1,6 @@
+In this project, the main focus is data cleaning.
+Main tasks:
+- Standardize date format, update Saledate column by removing timestamp
+- Split address information into address, city and state using SUBSTRING and PARSENAME function
+- Remove duplicates using ROW_NUMBER(), CTE
+- Delete unused columns
